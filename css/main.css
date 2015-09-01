@@ -1,3 +1,19 @@
 body{
 	padding-top:70px;
 }
+#thecubicle
+{
+    width    : 620px;
+    height   : 400px;
+    overflow : hidden;
+    position : relative;
+}
+ 
+#thecubicleframe
+{
+    position : absolute;
+    top      : -330px;
+    left     : -330px;
+    width    : 1280px;
+    height   : 2200px;
+}
