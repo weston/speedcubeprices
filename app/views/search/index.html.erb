@@ -1,41 +1,9 @@
-search page
-<br/>
-thecubicle.us
-<br/>
-<table>
-  <% if @puzzles != nil %>
-	  <%  @puzzles.each do |key,value| %>
-	  	<%= key %> costs <%= value %> </br>
-	  <% end %>
-  <% end %>
-</table>
-<br/><br/>
-Speedcubeshop.com
-<table>
-  <% if @scspuzzles != nil %>
-	  <%  @scspuzzles.each do |key,value| %>
-	  	<%= key %> costs <%= value %> </br>
-
-	  <% end %>
-  <% end %>
-</table>
-<br/><br/>
-Cubezz.com
-<table>
-  <% if @cubezzpuzzles != nil %>
-	  <%  @cubezzpuzzles.each do |key,value| %>
-	  	<%= key %> costs <%= value %> </br>
-
-	  <% end %>
-  <% end %>
-</table>
-<br/><br/>
-Cubes4speed
-<table>
-  <% if @cubes4speedpuzzles != nil %>
-	  <%  @cubes4speedpuzzles.each do |key,value| %>
-	  	<%= key %> costs <%= value %> </br>
-
-	  <% end %>
-  <% end %>
+<table class="table">
+	<%  for i in 0..@numResults - 1%>
+		<tr>
+			<td><%= @names[i]%></td>
+			<td><%= @prices[i]%></td>
+			<td><%= @stores[i]%></td>
+		<tr>
+	<% end %>
 </table>

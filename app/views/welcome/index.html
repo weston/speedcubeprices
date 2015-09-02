@@ -1,9 +1,16 @@
 <div id = "top">
 	<h1 id = "title">Speedcub.es</h1>
 </div>
-<div id = 'main-content' class = 'well'>
+<div id = 'main-content'>
 	<%= form_tag("/search", method: "get") do %>
+		<div class = 'well'>
 		<input type="text" id="searchBox" name="search" placeholder="" class="form-control"></input>
 		<input id="button" class="btn btn-info" type="submit" name="commit"></input>
+		</div>
+		Search:<br/>
+		<input type = "checkbox" name = "thecubicle" value = "on" checked></input> TheCubicle	&nbsp;&nbsp;
+		<input type = "checkbox" name = "speedcubeshop" value = "on" checked></input> Speedcubeshop &nbsp;&nbsp;
+		<input type = "checkbox" name = "cubezz" value = "on" checked></input> Cubezz	&nbsp;&nbsp;
+		<input type = "checkbox" name = "cubes4speed" value = "on" checked></input> CubesForSpeed &nbsp;&nbsp;
 	<% end %>
 </div>

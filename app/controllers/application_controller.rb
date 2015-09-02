@@ -83,11 +83,15 @@ class ApplicationController < ActionController::Base
 
 		numResults = page.css(".pagetext")[0].text
 		numResults = numResults.split(" ")[1].to_i
-
+		if numResults > 24 then
+			##eventually deal with multiple pages
+			numResults = 24
+		end
 		prices = page.css(".my_shop_price")
 		names = page.css(".list_pro_t")
 		puzzles = Hash.new
 		priceCounter = 1
+		puts numResults
 		for i in 0..numResults-1
 			name = names[i].text
 			price = "$" + prices[priceCounter].text.split(" ")[1]
@@ -114,7 +118,15 @@ class ApplicationController < ActionController::Base
 		numResults = names.length
 		puzzles = Hash.new
 		for i in 0..numResults - 1
-			puzzles[names[i].text] = prices[i].text
+			shouldAdd = true
+			searchTerms.each do |term|
+				if !names[i].text.downcase.include? term.downcase then
+					shouldAdd = false
+				end
+			end
+			if shouldAdd then
+				puzzles[names[i].text] = prices[i].text
+			end
 		end
 		return puzzles
 	end
