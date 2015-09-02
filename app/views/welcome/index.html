@@ -1,0 +1,6 @@
+<div class="well"><b>Search:</b>
+<%= form_tag("/search", method: "get") do %>
+	<input type="text" id="searchBox" name="search" placeholder="" class="form-control">
+	<input class="btn btn-success" type="submit" name="commit">
+<% end %>
+</div>
