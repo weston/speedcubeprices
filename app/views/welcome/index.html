@@ -1,6 +1,9 @@
-<div class="well"><b>Search:</b>
-<%= form_tag("/search", method: "get") do %>
-	<input type="text" id="searchBox" name="search" placeholder="" class="form-control">
-	<input class="btn btn-success" type="submit" name="commit">
-<% end %>
+<div id = "top">
+	<h1 id = "title">Speedcub.es</h1>
+</div>
+<div id = 'main-content' class = 'well'>
+	<%= form_tag("/search", method: "get") do %>
+		<input type="text" id="searchBox" name="search" placeholder="" class="form-control"></input>
+		<input id="button" class="btn btn-info" type="submit" name="commit"></input>
+	<% end %>
 </div>
