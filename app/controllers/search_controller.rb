@@ -11,7 +11,6 @@ class SearchController < ApplicationController
 		if query.length < 1 then
 			return
 		end
-
 		searchTerms = query.split(" ")
 		if params[:thecubicle] == "on" then
 			thecubiclePuzzles, thecubicleLinks = thecubicleSearch(searchTerms)
@@ -29,7 +28,7 @@ class SearchController < ApplicationController
 			cubes4speedPuzzles,cubes4speedLinks = cubes4speedSearch(searchTerms);
 			@data += getData(cubes4speedPuzzles,cubes4speedLinks,'cubes4speed.com')
 		end
-		puts @data
+		@data= sortData(@data,searchTerms)
 	end
 
 	##Returns an array of hashes of the data
@@ -47,5 +46,28 @@ class SearchController < ApplicationController
 			data.push(hash)
 		end
 		return data
+	end
+
+	def sortData(data,searchTerms)
+		data.sort!{|x,y|  rankHash(x,searchTerms ) <=> rankHash(y,searchTerms)}
+		return data
+	end
+
+
+	#What percent of the name is directly from the search term?
+	def rankHash(hash,searchTerms)
+		name = hash['name'].downcase
+		length = name.length
+		searchTerms.each do |term|
+			name.slice! term.downcase
+		end
+		ignoreThese.each do |term|
+			name.slice! term.downcase
+		end
+		score = (name.length * 100 /length)
+		return score
+	end
+	def ignoreThese()
+		return ['3x3','2x2','4x4','5x5','6x6','7x7']
 	end
 end
