@@ -9,7 +9,7 @@
 	</thead>
 	<%  @data.each do |hash| %>
 		<tr>
-			<td><%=hash["name"]%></td>
+			<td><a href = "<%=hash["link"]%>"><%=hash["name"]%></a></td>
 			<td><%=hash["price"]%></td>
 			<td><a href = "<%=hash["link"]%>">Buy at <%=hash["store"]%></a></td>
 		<tr>
