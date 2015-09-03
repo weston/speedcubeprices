@@ -1,9 +1,9 @@
 <table class="table">
-	<%  for i in 0..@numResults - 1%>
+	<%  @data.each do |hash| %>
 		<tr>
-			<td><%= @names[i]%></td>
-			<td><%= @prices[i]%></td>
-			<td><%= @stores[i]%></td>
+			<td><%=hash["name"]%></td>
+			<td><%=hash["price"]%></td>
+			<td><a href = "<%=hash["link"]%>">Buy at <%=hash["store"]%></a></td>
 		<tr>
 	<% end %>
 </table>

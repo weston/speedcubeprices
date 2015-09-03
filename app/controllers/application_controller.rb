@@ -11,10 +11,17 @@ class ApplicationController < ActionController::Base
 		end
 		page = Nokogiri::HTML(open(url)) 
 		numResults = page.css("strong")[3].text.to_i #Magic number 3
+		
+		allLinks = (page.css(".productListTable")).css("a")
+		links = []
+		counter = 0
+		for i in 0..numResults - 1
+			links.push(allLinks[counter]['href'])
+			counter += 3
+		end
 		results = page.css("td")
 		index = 6; 
 		counter = 0
-
 		puzzles = Hash.new
 		for i in 1..numResults
    			name = results[index].text
@@ -25,7 +32,7 @@ class ApplicationController < ActionController::Base
    			index += 6
    			puzzles[name] = price
 		end
-		return puzzles
+		return puzzles,links
 	end
 
 
@@ -46,7 +53,10 @@ class ApplicationController < ActionController::Base
 		results = page.css(".product-list")
 		results = results.css("div")
 
+
+		allLinks = page.css(".product-list").css(".name").css("a")
 		puzzles = Hash.new
+		links = Array.new
 		index = 3
 		for i in 1..numResults
 			name = results[index].text
@@ -63,9 +73,10 @@ class ApplicationController < ActionController::Base
 			end
 			if addThis then
 				puzzles[name] = price
+				links.push(allLinks[i-1]['href'])
 			end
 		end
-		return puzzles
+		return puzzles, links
 	end
 
 	def cubezzSearch(searchTermString)
@@ -83,15 +94,22 @@ class ApplicationController < ActionController::Base
 
 		numResults = page.css(".pagetext")[0].text
 		numResults = numResults.split(" ")[1].to_i
+		
 		if numResults > 24 then
 			##eventually deal with multiple pages
 			numResults = 24
 		end
+
+		allLinks = page.css(".plist_title").css("a")
+		links = Array.new
+		for i in 0..numResults-1
+			links.push("http://cubezz.com/" + allLinks[i]['href'])
+		end
+
 		prices = page.css(".my_shop_price")
 		names = page.css(".list_pro_t")
 		puzzles = Hash.new
 		priceCounter = 1
-		puts numResults
 		for i in 0..numResults-1
 			name = names[i].text
 			price = "$" + prices[priceCounter].text.split(" ")[1]
@@ -99,7 +117,7 @@ class ApplicationController < ActionController::Base
 			puzzles[name] = price
 		end
 
-		return puzzles
+		return puzzles,links
 
 	end
 
@@ -116,6 +134,13 @@ class ApplicationController < ActionController::Base
 		names = page.css("h3")  #Why did he do it this way? -___-
 		prices = page.css("h4")
 		numResults = names.length
+		
+
+		allLinks = page.css(".product-grid").css("a")
+		links = Array.new
+
+
+
 		puzzles = Hash.new
 		for i in 0..numResults - 1
 			shouldAdd = true
@@ -126,8 +151,9 @@ class ApplicationController < ActionController::Base
 			end
 			if shouldAdd then
 				puzzles[names[i].text] = prices[i].text
+				links.push("http://cubes4speed.com" + allLinks[i]['href'])
 			end
 		end
-		return puzzles
+		return puzzles, links
 	end
 end
