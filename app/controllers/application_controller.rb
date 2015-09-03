@@ -12,11 +12,11 @@ class ApplicationController < ActionController::Base
 		page = Nokogiri::HTML(open(url)) 
 		numResults = page.css("strong")[3] #Magic number 3
 		if numResults == nil then
-			return 
+			return {}, []
 		end
 		numResults = numResults.text.to_i
 		if numResults == 0 then
-			return
+			return {}, []
 		end
 		allLinks = (page.css(".productListTable")).css("a")
 		links = []
@@ -55,7 +55,9 @@ class ApplicationController < ActionController::Base
 
 		numResults = page.css(".results").text
 		numResults = numResults.split(" ")[3].to_i
-
+		if numResults == 0 then
+			return {},[]
+		end
 		results = page.css(".product-list")
 		results = results.css("div")
 
@@ -100,7 +102,9 @@ class ApplicationController < ActionController::Base
 
 		numResults = page.css(".pagetext")[0].text
 		numResults = numResults.split(" ")[1].to_i
-		
+		if numResults == 0 then
+			return {},[]
+		end
 		if numResults > 24 then
 			##eventually deal with multiple pages
 			numResults = 24
@@ -140,7 +144,10 @@ class ApplicationController < ActionController::Base
 		names = page.css("h3")  #Why did he do it this way? -___-
 		prices = page.css("h4")
 		numResults = names.length
-		
+		if numResults == 0 then
+			return {},[]
+		end
+
 
 		allLinks = page.css(".product-grid").css("a")
 		links = Array.new
