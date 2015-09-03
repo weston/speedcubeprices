@@ -33,6 +33,9 @@ class SearchController < ApplicationController
 
 	##Returns an array of hashes of the data
 	def getData(puzzles,links,store)
+		if puzzles == nil then
+			return []
+		end
 		counter = 0
 		data = Array.new
 						#name, price

@@ -10,8 +10,14 @@ class ApplicationController < ActionController::Base
 			url += delimiter
 		end
 		page = Nokogiri::HTML(open(url)) 
-		numResults = page.css("strong")[3].text.to_i #Magic number 3
-		
+		numResults = page.css("strong")[3] #Magic number 3
+		if numResults == nil then
+			return 
+		end
+		numResults = numResults.text.to_i
+		if numResults == 0 then
+			return
+		end
 		allLinks = (page.css(".productListTable")).css("a")
 		links = []
 		counter = 0
