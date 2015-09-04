@@ -18,15 +18,15 @@ class SearchController < ApplicationController
 		end
 		if params[:speedcubeshop] == "on" then
 			scsPuzzles, scsLinks = speedcubeshopSearch(searchTerms);
-			@data += getData(scsPuzzles,scsLinks,'SpeedcubeShop.com')
+			@data += getData(scsPuzzles,scsLinks,'SpeedCubeShop.com')
 		end
 		if params[:cubezz] == "on" then
 			cubezzPuzzles,cubezzLinks = cubezzSearch(query);
-			@data += getData(cubezzPuzzles,cubezzLinks,'cubezz.com')
+			@data += getData(cubezzPuzzles,cubezzLinks,'Cubezz.com')
 		end
 		if params[:cubes4speed] == "on" then
 			cubes4speedPuzzles,cubes4speedLinks = cubes4speedSearch(searchTerms);
-			@data += getData(cubes4speedPuzzles,cubes4speedLinks,'cubes4speed.com')
+			@data += getData(cubes4speedPuzzles,cubes4speedLinks,'Cubes4Speed.com')
 		end
 		@data= sortData(@data,searchTerms)
 	end
