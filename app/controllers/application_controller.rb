@@ -9,7 +9,8 @@ class ApplicationController < ActionController::Base
 			url += term
 			url += delimiter
 		end
-		page = Nokogiri::HTML(open(url)) 
+		begin
+			page = Nokogiri::HTML(open(url)) 
 		rescue OpenURI::HTTPError => e
 		    puts "Can't access #{ url }"
 		    puts e.message
@@ -52,8 +53,8 @@ class ApplicationController < ActionController::Base
 			url += term
 			url += delimeter
 		end
-		puts url
-		page = Nokogiri::HTML(open(url))
+		begin
+			page = Nokogiri::HTML(open(url))
 		rescue OpenURI::HTTPError => e
 		    puts "Can't access #{ url }"
 		    puts e.message
@@ -101,7 +102,8 @@ class ApplicationController < ActionController::Base
 		url += searchString
 		url = URI.encode(url)
 		url = URI.parse(url)
-		page = Nokogiri::HTML(open(url))
+		begin
+			page = Nokogiri::HTML(open(url))
 		rescue OpenURI::HTTPError => e
 		    puts "Can't access #{ url }"
 		    puts e.message
@@ -147,7 +149,8 @@ class ApplicationController < ActionController::Base
 		end
 		url = URI.encode(url)
 		url = URI.parse(url)
-		page = Nokogiri::HTML(open(url))
+		begin
+			page = Nokogiri::HTML(open(url))
 		rescue OpenURI::HTTPError => e
 		    puts "Can't access #{ url }"
 		    puts e.message
