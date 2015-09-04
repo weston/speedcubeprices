@@ -47,12 +47,15 @@ class ApplicationController < ActionController::Base
 
 	def speedcubeshopSearch(searchTerms)
 		#List all results, and then only choose the ones where all search terms appear in the title
-		url = "http://speedcubeshop.com/search?type=product&q="
+		url = "http://www.speedcubeshop.com/search?type=product&q="
 		delimeter = "+"
 		searchTerms.each do |term|
 			url += term
 			url += delimeter
 		end
+		url = url.chop
+		url = URI.encode(url)
+		url = URI.parse(url)
 		begin
 			page = Nokogiri::HTML(open(url))
 		rescue OpenURI::HTTPError => e

@@ -18452,3 +18452,7 @@ Processing by SearchController#index as HTML
   Parameters: {"utf8"=>"✓", "search"=>"moyu", "commit"=>"Submit", "thecubicle"=>"on", "speedcubeshop"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
   Rendered search/index.html.erb within layouts/application (197.3ms)
 Completed 200 OK in 2284ms (Views: 242.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-9047137ed2e8187fa45034868cc61ca70e1c1ed8b661377aef32c1de12afd9f1.css?body=1" for 172.88.207.101 at 2015-09-04 22:14:36 +0000
+Cannot render console from 172.88.207.101! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
