@@ -18092,3 +18092,50 @@ Processing by SearchController#index as HTML
   Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Submit", "thecubicle"=>"on", "speedcubeshop"=>"on"}
   Rendered search/index.html.erb within layouts/application (0.2ms)
 Completed 200 OK in 1023ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 14:35:05 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (1.6ms)
+Completed 200 OK in 224ms (Views: 214.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/search.self-4796c957a380faf2308312ea4320163f7ba55f0f037c09b44e350c0ce242dc3a.css?body=1" for ::1 at 2015-09-04 14:35:05 -0700
+
+
+Started GET "/assets/welcome.self-8b6e55e78246850e29ead593310d6cdd3dd5ef56181effa299e48be04afd9cee.css?body=1" for ::1 at 2015-09-04 14:35:05 -0700
+
+
+Started GET "/assets/application.self-e91c8f19a83ac49e62f73fd27f6c9223615064ac145c3871b8407a4a9b072008.css?body=1" for ::1 at 2015-09-04 14:35:05 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-04 14:35:05 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-04 14:35:05 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 14:35:05 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-04 14:35:05 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-04 14:35:05 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-04 14:35:05 -0700
+
+
+Started GET "/search?utf8=%E2%9C%93&search=meiying&commit=Submit&thecubicle=on&speedcubeshop=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-04 14:35:08 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"meiying", "commit"=>"Submit", "thecubicle"=>"on", "speedcubeshop"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 1890ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=meiying&commit=Submit&thecubicle=on&speedcubeshop=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-04 14:35:26 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"meiying", "commit"=>"Submit", "thecubicle"=>"on", "speedcubeshop"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 1706ms (Views: 43.0ms | ActiveRecord: 0.0ms)

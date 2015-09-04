@@ -47,6 +47,7 @@ class ApplicationController < ActionController::Base
 			url += term
 			url += delimeter
 		end
+		puts url
 		page = Nokogiri::HTML(open(url))
 		results = page.css(".search-result")
 		numResults = results.length #8 are always there to start with
