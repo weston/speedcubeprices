@@ -18,61 +18,51 @@ class ApplicationController < ActionController::Base
 		if numResults == 0 then
 			return {}, []
 		end
-		allLinks = (page.css(".productListTable")).css("a")
-		links = []
+
+		allData = page.css(".productListTable").css(".productListingData").css("tr")
+		links = Array.new
+		puzzles = Hash.new
 		counter = 0
 		for i in 0..numResults - 1
-			links.push(allLinks[counter]['href'])
-			counter += 3
+			currentElem = allData[counter]
+			link = currentElem.css("a")[0]['href']
+			name = currentElem.css("td")[1].text
+			curlen = currentElem.css("td").length
+			price = currentElem.css("td")[curlen-2].text
+			counter += 1 + currentElem.css("td")[2].css("tr").length 
+			#This is to compensate for more nested tr elements
+			links.push(link)
+			puzzles[name] = price
+
 		end
-		results = page.css("td")
-		index = 6; 
-		counter = 0
-		puzzles = Hash.new
-		for i in 1..numResults
-   			name = results[index].text
-   			if results[index + 2].text.include? "$" then #For out of stock stuff
-   				index-= 1
-   			end
-   			price = results[index + 3].text
-   			index += 6
-   			puzzles[name] = price
-		end
-		return puzzles,links
+		return puzzles, links
 	end
 
 
 	def speedcubeshopSearch(searchTerms)
 		#List all results, and then only choose the ones where all search terms appear in the title
-		url = "http://speedcubeshop.com/index.php?route=product/search&filter_name="
-		delimeter = "%20"
+		url = "http://speedcubeshop.com/search?type=product&q="
+		delimeter = "+"
 		searchTerms.each do |term|
 			url += term
 			url += delimeter
 		end
-		url += "&limit=100"
 		page = Nokogiri::HTML(open(url))
-
-		numResults = page.css(".results").text
-		numResults = numResults.split(" ")[3].to_i
+		results = page.css(".search-result")
+		numResults = results.length #8 are always there to start with
 		if numResults == 0 then
 			return {},[]
 		end
-		results = page.css(".product-list")
-		results = results.css("div")
 
-
-		allLinks = page.css(".product-list").css(".name").css("a")
 		puzzles = Hash.new
 		links = Array.new
-		index = 3
-		for i in 1..numResults
-			name = results[index].text
-			price = results[index + 2].text
-			if results[index + 4].text.include? 'Add to Cart' then #Extra div added if there is a rating
-				index+= 1
-			end
-			index += 8
+		allLinks = page.css('.search-result').css('a')
+		for i in 0..numResults-1
+			name = results[i].css("p").text.strip
+			dollars = results[i].css(".product-item--price").text.strip.chop.chop
+			cents = results[i].css(".product-item--price").css('sup').text.strip
+			price = "$" + dollars + "." + cents
+
 			addThis = true
 			searchTerms.each do |term| #Make sure every search term appears in the name
 				if !name.downcase.include? term.downcase then
@@ -81,7 +71,9 @@ class ApplicationController < ActionController::Base
 			end
 			if addThis then
 				puzzles[name] = price
-				links.push(allLinks[i-1]['href'])
+				link = allLinks[i]['href']
+				link = "http://speedcubeshop.com" + link
+				links.push(link)
 			end
 		end
 		return puzzles, links
