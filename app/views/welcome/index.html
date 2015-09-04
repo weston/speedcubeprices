@@ -5,13 +5,13 @@
 <div id = 'main-content'>
 	<%= form_tag("/search", method: "get") do %>
 		<div class = 'well'>
-		<input type="text" id="searchBox" name="search" placeholder="" class="form-control"></input>
+		<input type="text" id="searchBox" name="search" placeholder="Search for cubes" class="form-control"></input>
 		<input id="button" class="btn btn-info" type="submit" name="commit"></input>
 		</div>
 		Search:<br/>
-		<input type = "checkbox" name = "thecubicle" value = "on" checked></input> TheCubicle.us	&nbsp;&nbsp;
-		<input type = "checkbox" name = "speedcubeshop" value = "on" checked></input> Speedcubeshop.com &nbsp;&nbsp;
-		<input type = "checkbox" name = "cubezz" value = "on" checked></input> Cubezz.com	&nbsp;&nbsp;
-		<input type = "checkbox" name = "cubes4speed" value = "on" checked></input> Cubes4Speed.com &nbsp;&nbsp;
+		<input type = "checkbox" name = "thecubicle"  checked></input> TheCubicle.us	&nbsp;&nbsp;
+		<input type = "checkbox" name = "speedcubeshop" checked></input> Speedcubeshop.com &nbsp;&nbsp;
+		<input type = "checkbox" name = "cubezz" checked></input> Cubezz.com	&nbsp;&nbsp;
+		<input type = "checkbox" name = "cubes4speed" checked></input> Cubes4Speed.com &nbsp;&nbsp;
 	<% end %>
 </div>

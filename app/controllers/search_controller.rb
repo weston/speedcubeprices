@@ -12,23 +12,29 @@ class SearchController < ApplicationController
 			return
 		end
 		searchTerms = query.split(" ")
+		@checkboxes = Hash.new
 		if params[:thecubicle] == "on" then
+			@checkboxes["thecubicle"] = "checked"
 			thecubiclePuzzles, thecubicleLinks = thecubicleSearch(searchTerms)
 			@data += getData(thecubiclePuzzles,thecubicleLinks,'theCubicle.us')
 		end
 		if params[:speedcubeshop] == "on" then
+			@checkboxes["speedcubeshop"] = "checked"
 			scsPuzzles, scsLinks = speedcubeshopSearch(searchTerms);
 			@data += getData(scsPuzzles,scsLinks,'SpeedCubeShop.com')
 		end
 		if params[:cubezz] == "on" then
+			@checkboxes["cubezz"] = "checked"
 			cubezzPuzzles,cubezzLinks = cubezzSearch(query);
 			@data += getData(cubezzPuzzles,cubezzLinks,'Cubezz.com')
 		end
 		if params[:cubes4speed] == "on" then
+			@checkboxes["cubes4speed"] = "checked"
 			cubes4speedPuzzles,cubes4speedLinks = cubes4speedSearch(searchTerms);
 			@data += getData(cubes4speedPuzzles,cubes4speedLinks,'Cubes4Speed.com')
 		end
 		@data= sortData(@data,searchTerms)
+		@search = query
 	end
 
 	##Returns an array of hashes of the data

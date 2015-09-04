@@ -1,6 +1,4 @@
-// Place all the styles related to the search controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
 thead{
 	font-weight: bold;
 }
@@ -11,6 +9,26 @@ thead{
 	margin-top:1%;
 }
 #title{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.stats{
+	padding-left:20px;
+}
+
+#small-search-button{
+
+}
+
+#small-search-box{
+	width:40%;
+	height: 30px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#small-checkboxes{
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
