@@ -3,8 +3,8 @@
 	<%= form_tag("/search", method: "get") do %>
 		<input type="text" id="small-search-box" value = "<%= @search %>" onfocus="this.select();" onmouseup="return false;" name="search" placeholder="" class="form-control"></input>
 		<div id = "small-checkboxes">
-		<input type = "checkbox" name = "thecubicle" <%= @checkboxes["thecubicle"]%>></input> TheCubicle.us	&nbsp;&nbsp;
 		<input type = "checkbox" name = "speedcubeshop" <%= @checkboxes["speedcubeshop"]%>></input> Speedcubeshop.com &nbsp;&nbsp;
+		<input type = "checkbox" name = "thecubicle" <%= @checkboxes["thecubicle"]%>></input> TheCubicle.us	&nbsp;&nbsp;
 		<input type = "checkbox" name = "cubezz" <%= @checkboxes["cubezz"]%>></input> Cubezz.com	&nbsp;&nbsp;
 		<input type = "checkbox" name = "cubes4speed" <%= @checkboxes["cubes4speed"]%>></input> Cubes4Speed.com &nbsp;&nbsp;
 		</div>
