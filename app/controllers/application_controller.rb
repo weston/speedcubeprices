@@ -10,6 +10,12 @@ class ApplicationController < ActionController::Base
 			url += delimiter
 		end
 		page = Nokogiri::HTML(open(url)) 
+		rescue OpenURI::HTTPError => e
+		    puts "Can't access #{ url }"
+		    puts e.message
+		    puts
+		    next
+  		end
 		numResults = page.css("strong")[3] #Magic number 3
 		if numResults == nil then
 			return {}, []
@@ -49,6 +55,12 @@ class ApplicationController < ActionController::Base
 		end
 		puts url
 		page = Nokogiri::HTML(open(url))
+		rescue OpenURI::HTTPError => e
+		    puts "Can't access #{ url }"
+		    puts e.message
+		    puts
+		    next
+  		end
 		results = page.css(".search-result")
 		numResults = results.length #8 are always there to start with
 		if numResults == 0 then
@@ -92,7 +104,12 @@ class ApplicationController < ActionController::Base
 		url = URI.encode(url)
 		url = URI.parse(url)
 		page = Nokogiri::HTML(open(url))
-
+		rescue OpenURI::HTTPError => e
+		    puts "Can't access #{ url }"
+		    puts e.message
+		    puts
+		    next
+  		end
 		numResults = page.css(".pagetext")[0].text
 		numResults = numResults.split(" ")[1].to_i
 		if numResults == 0 then
@@ -134,6 +151,12 @@ class ApplicationController < ActionController::Base
 		url = URI.encode(url)
 		url = URI.parse(url)
 		page = Nokogiri::HTML(open(url))
+		rescue OpenURI::HTTPError => e
+		    puts "Can't access #{ url }"
+		    puts e.message
+		    puts
+		    next
+  		end
 		names = page.css("h3")  #Why did he do it this way? -___-
 		prices = page.css("h4")
 		numResults = names.length
