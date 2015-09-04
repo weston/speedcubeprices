@@ -35,6 +35,8 @@ class ApplicationController < ActionController::Base
 			name = currentElem.css("td")[1].text
 			curlen = currentElem.css("td").length
 			price = currentElem.css("td")[curlen-2].text
+			pricearr = price.gsub("$"," $").strip.split(" ")
+			price = pricearr[pricearr.length - 1]
 			counter += 1 + currentElem.css("td")[2].css("tr").length 
 			#This is to compensate for more nested tr elements
 			links.push(link)
@@ -74,8 +76,8 @@ class ApplicationController < ActionController::Base
 		allLinks = page.css('.search-result').css('a')
 		for i in 0..numResults-1
 			name = results[i].css("p").text.strip
-			dollars = results[i].css(".product-item--price").text.strip.chop.chop
-			cents = results[i].css(".product-item--price").css('sup').text.strip
+			dollars = results[i].css(".product-item--price").css(".h1").text.strip.chop.chop
+			cents = results[i].css(".product-item--price").css(".h1").css('sup').text.strip
 			price = "$" + dollars + "." + cents
 
 			addThis = true
@@ -181,7 +183,7 @@ class ApplicationController < ActionController::Base
 				end
 			end
 			if shouldAdd then
-				puzzles[names[i].text] = prices[i].text
+				puzzles[names[i].text] = prices[i].text.split(" ")[0]
 				links.push("http://cubes4speed.com" + allLinks[i]['href'])
 			end
 		end
