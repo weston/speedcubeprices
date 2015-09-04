@@ -13,8 +13,7 @@ class ApplicationController < ActionController::Base
 		rescue OpenURI::HTTPError => e
 		    puts "Can't access #{ url }"
 		    puts e.message
-		    puts
-		    next
+		    return {},[]
   		end
 		numResults = page.css("strong")[3] #Magic number 3
 		if numResults == nil then
@@ -58,8 +57,7 @@ class ApplicationController < ActionController::Base
 		rescue OpenURI::HTTPError => e
 		    puts "Can't access #{ url }"
 		    puts e.message
-		    puts
-		    next
+		    return {},[]
   		end
 		results = page.css(".search-result")
 		numResults = results.length #8 are always there to start with
@@ -107,8 +105,7 @@ class ApplicationController < ActionController::Base
 		rescue OpenURI::HTTPError => e
 		    puts "Can't access #{ url }"
 		    puts e.message
-		    puts
-		    next
+		    return {},[]
   		end
 		numResults = page.css(".pagetext")[0].text
 		numResults = numResults.split(" ")[1].to_i
@@ -154,8 +151,7 @@ class ApplicationController < ActionController::Base
 		rescue OpenURI::HTTPError => e
 		    puts "Can't access #{ url }"
 		    puts e.message
-		    puts
-		    next
+		    return {},[]
   		end
 		names = page.css("h3")  #Why did he do it this way? -___-
 		prices = page.css("h4")
