@@ -18066,3 +18066,29 @@ Processing by SearchController#index as HTML
   Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "commit"=>"Submit", "thecubicle"=>"on", "speedcubeshop"=>"on"}
   Rendered search/index.html.erb within layouts/application (10.5ms)
 Completed 200 OK in 817ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 14:32:48 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (2.1ms)
+Completed 200 OK in 259ms (Views: 247.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 14:32:49 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=&commit=Submit&thecubicle=on&speedcubeshop=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-04 14:32:50 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Submit", "thecubicle"=>"on", "speedcubeshop"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 3108ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=&commit=Submit&thecubicle=on&speedcubeshop=on" for ::1 at 2015-09-04 14:33:07 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"", "commit"=>"Submit", "thecubicle"=>"on", "speedcubeshop"=>"on"}
+  Rendered search/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1023ms (Views: 32.0ms | ActiveRecord: 0.0ms)

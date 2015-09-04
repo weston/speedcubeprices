@@ -8,9 +8,6 @@ class SearchController < ApplicationController
 		#Array of hashes
 		##{Name:name, Price:price, Store:store, Link:link}
 		query = params[:search]
-		if query.length < 1 then
-			return
-		end
 		searchTerms = query.split(" ")
 		@checkboxes = Hash.new
 		if params[:thecubicle] == "on" then
