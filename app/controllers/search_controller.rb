@@ -48,12 +48,14 @@ class SearchController < ApplicationController
 			hash["price"] = value
 			hash["link"] = links[counter]
 			hash["store"] = store
+			hash['coupon'] = []
 			if (store == 'theCubicle.us') then
-				hash["coupon"] = "'jrcuber' (5% off)"
-			else
-				hash['coupon'] = "None"
+				hash["coupon"].push("'jrcuber' (5% off)")
+				hash["coupon"].push("'labor' (10% off through 9/7)")
 			end
-					
+			if (store == 'SpeedCubeShop.com') then
+				hash["coupon"].push("'LABORDAY' (35% off through 9/7)")
+			end
 			counter += 1
 			data.push(hash)
 		end

@@ -27468,3 +27468,1036 @@ Started GET "/assets/SpeedCubeShop.com-bbf2ba4436b34d2e4031ca589c8585db11202d8af
 
 
 Started GET "/assets/Cubezz.com-56f0c3967ab54d9c91eeb82f95cb3e5a853c1ed93322acbef7ac2533f04a657e.png" for ::1 at 2015-09-05 14:51:01 -0700
+
+
+Started GET "/" for ::1 at 2015-09-05 14:55:42 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.4ms)
+Completed 200 OK in 105ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-05 14:55:43 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyuu+weilong&commit=Submit&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 14:55:48 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyuu weilong", "commit"=>"Submit", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1866ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 14:55:53 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 2563ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 14:56:12 -0700
+
+SyntaxError (/Users/Weston/Documents/ProjectRepos/speedcubeprices/app/controllers/search_controller.rb:85: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/search_controller.rb:85: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.6ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.1ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (22.5ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (50.2ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 14:56:17 -0700
+
+SyntaxError (/Users/Weston/Documents/ProjectRepos/speedcubeprices/app/controllers/search_controller.rb:85: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/search_controller.rb:85: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.3ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 14:56:18 -0700
+
+SyntaxError (/Users/Weston/Documents/ProjectRepos/speedcubeprices/app/controllers/search_controller.rb:85: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/search_controller.rb:85: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.4ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.9ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 14:56:18 -0700
+
+SyntaxError (/Users/Weston/Documents/ProjectRepos/speedcubeprices/app/controllers/search_controller.rb:85: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/search_controller.rb:85: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.8ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.4ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (30.4ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 14:56:30 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (43.4ms)
+Completed 200 OK in 2722ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 14:56:33 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (36.7ms)
+Completed 200 OK in 1618ms (Views: 160.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-21bd8593246132189dcea93c9df70fc109a44d157861d87b068f7dc552f6b750.css?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/theCubicle.us-090e7e3981d69ec2fc0a83116b8e7ac184b052922e2f41b2d9dceb45fe05ac62.png" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/SpeedCubeShop.com-bbf2ba4436b34d2e4031ca589c8585db11202d8af3e9e2bdb26bb2c2c880ab8b.png" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/Cubes4Speed.com-f037d88ffe6344f03a99616cd5ffc38b1c4c1607d884a6017a61421735ab0170.png" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/assets/Cubezz.com-56f0c3967ab54d9c91eeb82f95cb3e5a853c1ed93322acbef7ac2533f04a657e.png" for ::1 at 2015-09-05 14:56:35 -0700
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 14:56:42 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (33.8ms)
+Completed 200 OK in 1516ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-21bd8593246132189dcea93c9df70fc109a44d157861d87b068f7dc552f6b750.css?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/theCubicle.us-090e7e3981d69ec2fc0a83116b8e7ac184b052922e2f41b2d9dceb45fe05ac62.png" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/SpeedCubeShop.com-bbf2ba4436b34d2e4031ca589c8585db11202d8af3e9e2bdb26bb2c2c880ab8b.png" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/Cubezz.com-56f0c3967ab54d9c91eeb82f95cb3e5a853c1ed93322acbef7ac2533f04a657e.png" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/assets/Cubes4Speed.com-f037d88ffe6344f03a99616cd5ffc38b1c4c1607d884a6017a61421735ab0170.png" for ::1 at 2015-09-05 14:56:44 -0700
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 15:00:20 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (41.7ms)
+Completed 200 OK in 2578ms (Views: 104.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-21bd8593246132189dcea93c9df70fc109a44d157861d87b068f7dc552f6b750.css?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/theCubicle.us-090e7e3981d69ec2fc0a83116b8e7ac184b052922e2f41b2d9dceb45fe05ac62.png" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/SpeedCubeShop.com-bbf2ba4436b34d2e4031ca589c8585db11202d8af3e9e2bdb26bb2c2c880ab8b.png" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/Cubes4Speed.com-f037d88ffe6344f03a99616cd5ffc38b1c4c1607d884a6017a61421735ab0170.png" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/assets/Cubezz.com-56f0c3967ab54d9c91eeb82f95cb3e5a853c1ed93322acbef7ac2533f04a657e.png" for ::1 at 2015-09-05 15:00:22 -0700
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 15:01:05 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (38.3ms)
+Completed 200 OK in 3534ms (Views: 130.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 15:01:09 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (44.3ms)
+Completed 200 OK in 1372ms (Views: 114.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-21bd8593246132189dcea93c9df70fc109a44d157861d87b068f7dc552f6b750.css?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/search.self-76098796547e43fa3dbb5c0a9d28fc9380a9eb8aab2b8e0e6e4bdf8dd0ae68ef.css?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/theCubicle.us-090e7e3981d69ec2fc0a83116b8e7ac184b052922e2f41b2d9dceb45fe05ac62.png" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/Cubezz.com-56f0c3967ab54d9c91eeb82f95cb3e5a853c1ed93322acbef7ac2533f04a657e.png" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/Cubes4Speed.com-f037d88ffe6344f03a99616cd5ffc38b1c4c1607d884a6017a61421735ab0170.png" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/assets/SpeedCubeShop.com-bbf2ba4436b34d2e4031ca589c8585db11202d8af3e9e2bdb26bb2c2c880ab8b.png" for ::1 at 2015-09-05 15:01:10 -0700
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 15:01:13 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (43.9ms)
+Completed 200 OK in 1436ms (Views: 145.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-21bd8593246132189dcea93c9df70fc109a44d157861d87b068f7dc552f6b750.css?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/search.self-915e7f2cf4e7f9e07ae96834b4775554777cf637caf44015c43fc5bf593f6c25.css?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 15:01:14 -0700
+
+
+Started GET "/assets/theCubicle.us-090e7e3981d69ec2fc0a83116b8e7ac184b052922e2f41b2d9dceb45fe05ac62.png" for ::1 at 2015-09-05 15:01:15 -0700
+
+
+Started GET "/assets/SpeedCubeShop.com-bbf2ba4436b34d2e4031ca589c8585db11202d8af3e9e2bdb26bb2c2c880ab8b.png" for ::1 at 2015-09-05 15:01:15 -0700
+
+
+Started GET "/assets/Cubes4Speed.com-f037d88ffe6344f03a99616cd5ffc38b1c4c1607d884a6017a61421735ab0170.png" for ::1 at 2015-09-05 15:01:15 -0700
+
+
+Started GET "/assets/Cubezz.com-56f0c3967ab54d9c91eeb82f95cb3e5a853c1ed93322acbef7ac2533f04a657e.png" for ::1 at 2015-09-05 15:01:15 -0700
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 15:01:19 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (43.0ms)
+Completed 200 OK in 1477ms (Views: 150.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-21bd8593246132189dcea93c9df70fc109a44d157861d87b068f7dc552f6b750.css?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/search.self-1f9e08172cdb4eff19a1384b6b248bcf628268ba1a23f737da17873c476f5f99.css?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/theCubicle.us-090e7e3981d69ec2fc0a83116b8e7ac184b052922e2f41b2d9dceb45fe05ac62.png" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/SpeedCubeShop.com-bbf2ba4436b34d2e4031ca589c8585db11202d8af3e9e2bdb26bb2c2c880ab8b.png" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/Cubes4Speed.com-f037d88ffe6344f03a99616cd5ffc38b1c4c1607d884a6017a61421735ab0170.png" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/assets/Cubezz.com-56f0c3967ab54d9c91eeb82f95cb3e5a853c1ed93322acbef7ac2533f04a657e.png" for ::1 at 2015-09-05 15:01:20 -0700
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 15:01:51 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 2926ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-21bd8593246132189dcea93c9df70fc109a44d157861d87b068f7dc552f6b750.css?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/search.self-1f9e08172cdb4eff19a1384b6b248bcf628268ba1a23f737da17873c476f5f99.css?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/theCubicle.us-090e7e3981d69ec2fc0a83116b8e7ac184b052922e2f41b2d9dceb45fe05ac62.png" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/SpeedCubeShop.com-bbf2ba4436b34d2e4031ca589c8585db11202d8af3e9e2bdb26bb2c2c880ab8b.png" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/Cubes4Speed.com-f037d88ffe6344f03a99616cd5ffc38b1c4c1607d884a6017a61421735ab0170.png" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/assets/Cubezz.com-56f0c3967ab54d9c91eeb82f95cb3e5a853c1ed93322acbef7ac2533f04a657e.png" for ::1 at 2015-09-05 15:01:54 -0700
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 15:02:09 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (39.8ms)
+Completed 200 OK in 1402ms (Views: 127.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/about.self-21bd8593246132189dcea93c9df70fc109a44d157861d87b068f7dc552f6b750.css?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/search.self-1c7048d3edaec0883fd023cb9978f72998d4c6210e7f4aca81500510af1a4f75.css?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/theCubicle.us-090e7e3981d69ec2fc0a83116b8e7ac184b052922e2f41b2d9dceb45fe05ac62.png" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/Cubes4Speed.com-f037d88ffe6344f03a99616cd5ffc38b1c4c1607d884a6017a61421735ab0170.png" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/SpeedCubeShop.com-bbf2ba4436b34d2e4031ca589c8585db11202d8af3e9e2bdb26bb2c2c880ab8b.png" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/assets/Cubezz.com-56f0c3967ab54d9c91eeb82f95cb3e5a853c1ed93322acbef7ac2533f04a657e.png" for ::1 at 2015-09-05 15:02:10 -0700
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 15:02:20 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 1531ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-21bd8593246132189dcea93c9df70fc109a44d157861d87b068f7dc552f6b750.css?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/search.self-1c7048d3edaec0883fd023cb9978f72998d4c6210e7f4aca81500510af1a4f75.css?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/theCubicle.us-090e7e3981d69ec2fc0a83116b8e7ac184b052922e2f41b2d9dceb45fe05ac62.png" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/Cubes4Speed.com-f037d88ffe6344f03a99616cd5ffc38b1c4c1607d884a6017a61421735ab0170.png" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/Cubezz.com-56f0c3967ab54d9c91eeb82f95cb3e5a853c1ed93322acbef7ac2533f04a657e.png" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/assets/SpeedCubeShop.com-bbf2ba4436b34d2e4031ca589c8585db11202d8af3e9e2bdb26bb2c2c880ab8b.png" for ::1 at 2015-09-05 15:02:22 -0700
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 15:02:28 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (46.6ms)
+Completed 200 OK in 1303ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-21bd8593246132189dcea93c9df70fc109a44d157861d87b068f7dc552f6b750.css?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/search.self-1f9e08172cdb4eff19a1384b6b248bcf628268ba1a23f737da17873c476f5f99.css?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/theCubicle.us-090e7e3981d69ec2fc0a83116b8e7ac184b052922e2f41b2d9dceb45fe05ac62.png" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/SpeedCubeShop.com-bbf2ba4436b34d2e4031ca589c8585db11202d8af3e9e2bdb26bb2c2c880ab8b.png" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/Cubezz.com-56f0c3967ab54d9c91eeb82f95cb3e5a853c1ed93322acbef7ac2533f04a657e.png" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/assets/Cubes4Speed.com-f037d88ffe6344f03a99616cd5ffc38b1c4c1607d884a6017a61421735ab0170.png" for ::1 at 2015-09-05 15:02:29 -0700
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 15:04:14 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (9.8ms)
+Completed 500 Internal Server Error in 2554ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (no implicit conversion of Fixnum into Array):
+    31: 			<td id = 'coupons'>
+    32: 				<% for i in 0..hash['coupon'].length - 1 do %>
+    33: 					<%= hash['coupon'][i] %> 
+    34: 					<%if (i < hash['coupon'] - 1) then %>
+    35: 						<br/>
+    36: 					<% end %>
+    37: 				<% end %>
+  app/views/search/index.html.erb:34:in `-'
+  app/views/search/index.html.erb:34:in `block (2 levels) in _app_views_search_index_html_erb___3883118068051044644_70140734161340'
+  app/views/search/index.html.erb:32:in `block in _app_views_search_index_html_erb___3883118068051044644_70140734161340'
+  app/views/search/index.html.erb:26:in `each'
+  app/views/search/index.html.erb:26:in `_app_views_search_index_html_erb___3883118068051044644_70140734161340'
+
+
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.0ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.3ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.4ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Weston/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.8ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 15:04:29 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (31.1ms)
+Completed 200 OK in 1840ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-21bd8593246132189dcea93c9df70fc109a44d157861d87b068f7dc552f6b750.css?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/search.self-1f9e08172cdb4eff19a1384b6b248bcf628268ba1a23f737da17873c476f5f99.css?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/theCubicle.us-090e7e3981d69ec2fc0a83116b8e7ac184b052922e2f41b2d9dceb45fe05ac62.png" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/Cubezz.com-56f0c3967ab54d9c91eeb82f95cb3e5a853c1ed93322acbef7ac2533f04a657e.png" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/Cubes4Speed.com-f037d88ffe6344f03a99616cd5ffc38b1c4c1607d884a6017a61421735ab0170.png" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/assets/SpeedCubeShop.com-bbf2ba4436b34d2e4031ca589c8585db11202d8af3e9e2bdb26bb2c2c880ab8b.png" for ::1 at 2015-09-05 15:04:31 -0700
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 15:04:41 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (38.7ms)
+Completed 200 OK in 14658ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 15:04:56 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (41.4ms)
+Completed 200 OK in 1626ms (Views: 135.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-21bd8593246132189dcea93c9df70fc109a44d157861d87b068f7dc552f6b750.css?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/search.self-1f9e08172cdb4eff19a1384b6b248bcf628268ba1a23f737da17873c476f5f99.css?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/theCubicle.us-090e7e3981d69ec2fc0a83116b8e7ac184b052922e2f41b2d9dceb45fe05ac62.png" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/SpeedCubeShop.com-bbf2ba4436b34d2e4031ca589c8585db11202d8af3e9e2bdb26bb2c2c880ab8b.png" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/Cubes4Speed.com-f037d88ffe6344f03a99616cd5ffc38b1c4c1607d884a6017a61421735ab0170.png" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/assets/Cubezz.com-56f0c3967ab54d9c91eeb82f95cb3e5a853c1ed93322acbef7ac2533f04a657e.png" for ::1 at 2015-09-05 15:04:58 -0700
+
+
+Started GET "/search?utf8=%E2%9C%93&search=moyu+weilong&speedcubeshop=on&thecubicle=on&cubezz=on&cubes4speed=on" for ::1 at 2015-09-05 15:05:50 -0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"moyu weilong", "speedcubeshop"=>"on", "thecubicle"=>"on", "cubezz"=>"on", "cubes4speed"=>"on"}
+  Rendered search/index.html.erb within layouts/application (36.8ms)
+Completed 200 OK in 2493ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-21bd8593246132189dcea93c9df70fc109a44d157861d87b068f7dc552f6b750.css?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/search.self-1f9e08172cdb4eff19a1384b6b248bcf628268ba1a23f737da17873c476f5f99.css?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/theCubicle.us-090e7e3981d69ec2fc0a83116b8e7ac184b052922e2f41b2d9dceb45fe05ac62.png" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/SpeedCubeShop.com-bbf2ba4436b34d2e4031ca589c8585db11202d8af3e9e2bdb26bb2c2c880ab8b.png" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/Cubezz.com-56f0c3967ab54d9c91eeb82f95cb3e5a853c1ed93322acbef7ac2533f04a657e.png" for ::1 at 2015-09-05 15:05:52 -0700
+
+
+Started GET "/assets/Cubes4Speed.com-f037d88ffe6344f03a99616cd5ffc38b1c4c1607d884a6017a61421735ab0170.png" for ::1 at 2015-09-05 15:05:52 -0700
