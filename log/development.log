@@ -26276,3 +26276,771 @@ Started GET "/" for ::1 at 2015-09-05 12:21:09 -0700
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html within layouts/application (0.1ms)
 Completed 200 OK in 72ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-05 12:22:29 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.1ms)
+Completed 200 OK in 52ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-28483bfcc4038ac856c504776240d3bb77012032b2dacc9123ed2824c7864078.css?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 12:22:30 -0700
+
+
+Started GET "/" for ::1 at 2015-09-05 12:24:24 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html within layouts/application (0.3ms)
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2015-09-05 12:24:27 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2015-09-05 12:24:35 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-28483bfcc4038ac856c504776240d3bb77012032b2dacc9123ed2824c7864078.css?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 12:24:35 -0700
+
+
+Started GET "/about" for ::1 at 2015-09-05 12:25:57 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-28483bfcc4038ac856c504776240d3bb77012032b2dacc9123ed2824c7864078.css?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 12:25:57 -0700
+
+
+Started GET "/about" for ::1 at 2015-09-05 12:26:08 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-28483bfcc4038ac856c504776240d3bb77012032b2dacc9123ed2824c7864078.css?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 12:26:08 -0700
+
+
+Started GET "/about" for ::1 at 2015-09-05 12:26:50 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 92ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/about.self-632d696c2251861eb51de790bf6ea0362cdb95ce820f9abcffee204eca693857.css?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/about" for ::1 at 2015-09-05 12:26:51 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-632d696c2251861eb51de790bf6ea0362cdb95ce820f9abcffee204eca693857.css?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 12:26:51 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/about" for ::1 at 2015-09-05 12:26:52 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 118ms (Views: 117.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-632d696c2251861eb51de790bf6ea0362cdb95ce820f9abcffee204eca693857.css?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 12:26:52 -0700
+
+
+Started GET "/about" for ::1 at 2015-09-05 12:27:01 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 92ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-4e9897260c28a25ce98c64c5a780df6aeb4b30b8ce6ab1e7e8b0f40fbe3460f2.css?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/about" for ::1 at 2015-09-05 12:27:02 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 64ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-4e9897260c28a25ce98c64c5a780df6aeb4b30b8ce6ab1e7e8b0f40fbe3460f2.css?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 12:27:02 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 12:27:03 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 12:27:03 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 12:27:03 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 12:27:03 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 12:27:03 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:03 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:03 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:03 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:03 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:03 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 12:27:03 -0700
+
+
+Started GET "/about" for ::1 at 2015-09-05 12:27:11 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 95ms (Views: 94.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-b4565814041ddab70af96fd79d1e5f96bea5912b10fa561d3353881af4ffbde8.css?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 12:27:11 -0700
+
+
+Started GET "/about" for ::1 at 2015-09-05 12:27:20 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 66ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-b4565814041ddab70af96fd79d1e5f96bea5912b10fa561d3353881af4ffbde8.css?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 12:27:21 -0700
+
+
+Started GET "/about" for ::1 at 2015-09-05 12:27:31 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 62ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-b4565814041ddab70af96fd79d1e5f96bea5912b10fa561d3353881af4ffbde8.css?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 12:27:32 -0700
+
+
+Started GET "/about" for ::1 at 2015-09-05 12:27:43 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 66ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-b4565814041ddab70af96fd79d1e5f96bea5912b10fa561d3353881af4ffbde8.css?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 12:27:43 -0700
+
+
+Started GET "/about" for ::1 at 2015-09-05 12:28:16 -0700
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 96ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-21bd8593246132189dcea93c9df70fc109a44d157861d87b068f7dc552f6b750.css?body=1" for ::1 at 2015-09-05 12:28:16 -0700
+
+
+Started GET "/assets/hover.self-b0b2e6a05f61c976461a3bbec5f749269e0e3cdc86a06d7064122ac8f61aa9d4.css?body=1" for ::1 at 2015-09-05 12:28:16 -0700
+
+
+Started GET "/assets/sales.self-87a33e845e51b11454d562d1ef995a4242fae8a1115cf3e80eab2dfbfadf5b6c.css?body=1" for ::1 at 2015-09-05 12:28:17 -0700
+
+
+Started GET "/assets/search.self-7ea9c1c8cf5a9339dd9d13b3e1c028474b5a917ad3b42ccb92d3d34f3f529a85.css?body=1" for ::1 at 2015-09-05 12:28:17 -0700
+
+
+Started GET "/assets/application.self-4b123aa8af263a7ed355b434e59f21906f105b90d59634c4cd09faf9b38b3183.css?body=1" for ::1 at 2015-09-05 12:28:17 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-05 12:28:17 -0700
+
+
+Started GET "/assets/shipping.self-0524e83782f7b45cbc446f838959529e3258859d5be037df07da376cb8a46b33.css?body=1" for ::1 at 2015-09-05 12:28:17 -0700
+
+
+Started GET "/assets/welcome.self-e1679cf21c845389d843170100630220c01b653aada7471b5b68263e4f5c65d0.css?body=1" for ::1 at 2015-09-05 12:28:17 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-05 12:28:17 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-05 12:28:17 -0700
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:28:17 -0700
+
+
+Started GET "/assets/sales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:28:17 -0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:28:17 -0700
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:28:17 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-05 12:28:17 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-05 12:28:17 -0700
