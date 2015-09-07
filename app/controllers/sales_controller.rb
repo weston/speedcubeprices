@@ -4,7 +4,7 @@ class SalesController < ApplicationController
 		allSales = Promotion.all.order('created_at')
 		@sales = []
 		allSales.each do |sale|
-			if (sale.approved) then
+			if (sale.approved) and (sale.expiration.next.next.future?) then #Why two nexts? No idea
 				@sales.push(sale);
 			end
 		end
@@ -39,10 +39,12 @@ class SalesController < ApplicationController
 				promo.save()
 				flash[:notice] = "Succesfully saved. This promotion will show up on this page when it is approved."
 				redirect_to "/sales/store"	
+				return
 			end
 		end
 		flash[:notice] = "Incorrect password. Please input again."
 		redirect_to "/sales/store"	
+		return
 	end
 	def admin
 		@sales = Promotion.all
