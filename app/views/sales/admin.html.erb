@@ -1,0 +1,48 @@
+<div class = 'well' id = "sale-content" >
+	<input type = 'text' id = 'pw' class = 'form-control' placeholder = "put secret access code here"></input>
+	<br/>
+	<% if (@sales.length == 0) then %>
+		There currently no active promotions.
+	<% end %>
+	<div class="list-group">
+		<% @sales.each do |sale|%>
+			<div class="list-group-item">
+			    <h4 class="list-group-item-heading"><%= sale.store_name %>: <%= sale.title %></h4>
+			    <p class="list-group-item-text">
+			    	<div class = "admin-buttons">
+				    	<% if sale.approved == false then %>
+					    	<button type="button" class="btn btn-success" onclick = 'approvePromotion(<%= sale.id%>)'>Approve</button>
+					    <% end %>
+					    <button type="button" class="btn btn-danger" onclick = 'deletePromotion(<%= sale.id%>,self)'>Delete</button>
+			    	</div>
+			    	<%= sale.description %>
+			    	<br/>
+			    	<% if sale.link.length != 0 then %>
+			    		To learn more, click <a href = "<%= sale.link %>"> here.</a>
+			    	<% end %>
+			    </p>
+			    <div class = "list-group-item-footer sale-footer">
+			     Active until <%= sale.expiration.strftime('%a, %b %d, %Y') %>
+			    </div>
+			</div>
+		<% end %>
+	</div>
+</div>
+
+
+<script>
+	function deletePromotion(id,elem){
+		var code = document.getElementById('pw').value
+		var  xmlhttp=new XMLHttpRequest();
+		xmlhttp.open("GET","/sales/delete_promotion?id=" + id + "&pw=" + code ,true);
+		xmlhttp.send();
+	}
+
+	function approvePromotion(id){
+		var code = document.getElementById('pw').value
+		var  xmlhttp=new XMLHttpRequest();
+		xmlhttp.open("GET","/sales/approve_promotion?id=" + id + "&pw=" + code ,true);
+		xmlhttp.send();
+
+	}
+</script>

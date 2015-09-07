@@ -1,1 +1,23 @@
-sales
+<div class = 'well' id = "sale-content" >
+	<h1> <center>Active Promotions and Sales</center></h1>
+	<% if (@sales.length == 0) then %>
+		There currently no active promotions.
+	<%end%>
+	<div class="list-group">
+		<% @sales.each do |sale|%>
+			<div class="list-group-item">
+			    <h4 class="list-group-item-heading"><%= sale.store_name %>: <%= sale.title %></h4>
+			    <p class="list-group-item-text">
+			    	<%= sale.description %>
+			    	<br/>
+			    	<% if sale.link.length != 0 then %>
+			    		To learn more, click <a href = "<%= sale.link %>"> here.</a>
+			    	<% end %>
+			    </p>
+			    <div class = "list-group-item-footer sale-footer">
+			     Active until <%= sale.expiration.strftime('%a, %b %d, %Y') %>
+			    </div>
+			</div>
+		<% end %>
+	</div>
+</div>

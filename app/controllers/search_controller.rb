@@ -82,6 +82,6 @@ class SearchController < ApplicationController
 		return score
 	end
 	def ignoreThese()
-		return ['3x3','2x2','4x4','5x5','6x6','7x7']
+		return []
 	end
 end
