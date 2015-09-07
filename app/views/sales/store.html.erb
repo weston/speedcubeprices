@@ -1,9 +1,11 @@
 <div id = "store-body">
+<% if flash[:notice] %>
+    <div class="notice"><%= flash[:notice] %></div>
+<% end %>
 <h1> Store input form </h1>
 <%= form_tag("/sales/post_submit", method: "get") do %>
 		<div class = 'well' id = 'store-well'>
 			Active until: <input type="date" name="date" class = "form-control"></input>
-			<input type="text"  name="storeName" placeholder="Store Name" class="form-control"></input>
 			<input type="text"  name="title" placeholder="Title" class="form-control"></input>
 			<input type="text" name="description" placeholder="Description of the promotion" class="form-control"></input>
 			<input type="text"  name="link" placeholder="Link to site or more promotion info" class="form-control"></input>
