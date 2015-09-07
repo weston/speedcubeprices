@@ -28,7 +28,7 @@ class SalesController < ApplicationController
 		promo.expiration = Date.parse(params[:date])
 		password = params[:password]
 		passwords = {}
-		passwords["SpeedCubeShop.com"] = "6de1c8799f4a4dbe4fa3cb35d0656490582bb0bed50304d2251532b8d94b322b"
+		passwords["SpeedCubeShop.com"] = "c9c3ac6361e919040fcc8740a54bba8ac81faa96c0c4323481ab1cb3bd9751c0"
 		passwords["theCubicle.us"] = "de4b7328807cc363e5f5e94b22cb1c39a99a6dc996687a99fa1d7cb4a0a8f0d4"
 		passwords["Cubezz.com"] = "510debfd835172ae11a96642728ff0aabf3b603c90a1a5b5150dee5ce260f2dc"
 		passwords["Cubes4Speed.com"] = "3c0742c81e433c79d78521002172f7a773ffac15b648c97335dcb45cec6cd600"
