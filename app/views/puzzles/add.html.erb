@@ -1,0 +1,33 @@
+<div id = "puzzles-body">
+	<% if flash[:notice] %>
+	    <div class="notice"><%= flash[:notice] %></div>
+	<% end %>
+	<h1> Product input form </h1>
+	<%= form_tag("/puzzles/post_submit", method: "get") do %>
+		<div class = 'well' id = 'puzzles-well'>
+			Product info:
+			<input type="text"  name="name" placeholder="Product Name" class="form-control"></input>
+			<input type="text" name="brand" placeholder="Maker" class="form-control"></input>
+			<select name = "type" class = "form-control">
+				  <option value="2x2">2x2</option>
+				  <option value="3x3" selected>3x3</option>
+				  <option value="4x4">4x4</option>
+				  <option value="5x5">5x5</option>
+				  <option value="6x6">6x6</option>
+				  <option value="7x7">7x7</option>
+				  <option value="square-1">Square-1</option>
+				  <option value="pyraminx">Pyraminx</option>
+				  <option value="megaminx">Megaminx</option>
+				  <option value="other-puzzle">Other Puzzle</option>
+				  <option value="accessory">Accessory</option>
+			</select>
+			<br/>
+			Links:
+			<input type="text"  name="thecubicle_link" placeholder="TheCubicle.us link" class="form-control"></input>
+			<input type="text"  name="speedcubeshop_link" placeholder="SpeedCubeShop.com link" class="form-control"></input>
+			<input type="text"  name="cubezz_link" placeholder="Cubezz.com link" class="form-control"></input>
+			<input type="text"  name="cubes4speed_link" placeholder="Cubes4Speed.com link" class="form-control"></input>
+			<input id="button" class="btn btn-info" type="submit" name="commit"></input>
+		</div>
+	<% end %>
+</div>
