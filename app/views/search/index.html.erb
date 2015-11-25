@@ -18,7 +18,6 @@
 			<td></td>
 			<td>Name</td>
 			<td>Price</td>
-			<td>Coupon Code </td>
 			<td>Buy now</td>
 
 		</tr>
@@ -28,14 +27,6 @@
 			<td><%= image_tag(hash["store"] + ".png", height:"15%") %></td>
 			<td><a href = "<%=hash["link"]%>"><%=hash["name"]%></a></td>
 			<td><%=hash["price"]%></td>
-			<td id = 'coupons'>
-				<% for i in 0..hash['coupon'].length - 1 do %>
-					<%= hash['coupon'][i] %> 
-					<%if (i < hash['coupon'].length - 1) then %>
-						<br/>
-					<% end %>
-				<% end %>
-			</td>
 			<td><a href = "<%=hash["link"]%>">Buy at <%=hash["store"]%></a></td>
 		<tr>
 	<% end %>

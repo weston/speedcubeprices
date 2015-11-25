@@ -9,6 +9,7 @@ class ApplicationController < ActionController::Base
 			url += term
 			url += delimiter
 		end
+		url += "&sort=2a&grid=2"
 		begin
 			page = Nokogiri::HTML(open(url)) 
 		rescue OpenURI::HTTPError => e
